@@ -16,6 +16,7 @@
     z-index: 3;
 }
 
+
 @media only screen and (max-width: 576px){
     .carousel-caption{
         top: 5%;
@@ -32,12 +33,16 @@
 @media only screen and (min-width: 577px) and (max-width: 992px){
     .carousel-caption {
             top: 30%;
-        }
+    }
     .carousel-caption h1 {
             font-size: 5vw;
-        }
+    }
     
-        .carousel-caption p {
-            font-size: 2vw;
-        }
+    .carousel-caption p {
+        font-size: 2vw;
+    }
+    .explore {
+        object-fit: inherit;
+        height: 660px;
+    }
 }
