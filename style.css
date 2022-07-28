@@ -18,7 +18,21 @@
 .join-section{
     font-family: 'Poppins', sans-serif;
 }
-
+footer{
+    background-color: black;
+}
+.social-media-icons i{
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.social-media-icons a{
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: #242424;
+    border-radius: 100%;    
+}
 
 @media only screen and (max-width: 576px){
     .carousel-caption{
