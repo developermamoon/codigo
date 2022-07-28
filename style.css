@@ -22,11 +22,12 @@
         top: 5%;
     }
     .carousel-caption h1 {
-            font-size: 5vw;
+            /* font-size: 5vw; */
+            font-size: 1rem;
         }
     
     .carousel-caption p {
-            font-size: 2vw;
+            font-size: 0.4rem;
         }
 }
 
@@ -36,6 +37,7 @@
     }
     .carousel-caption h1 {
             font-size: 5vw;
+            font-size: 5vw;
     }
     
     .carousel-caption p {
@@ -43,6 +45,6 @@
     }
     .explore {
         object-fit: inherit;
-        height: 660px;
+        height: 700px;
     }
 }
