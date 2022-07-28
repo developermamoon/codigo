@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 .img-grad{
     position: absolute;
     z-index: 1;
@@ -14,6 +14,9 @@
 }
 .carousel-button{
     z-index: 3;
+}
+.join-section{
+    font-family: 'Poppins', sans-serif;
 }
 
 
