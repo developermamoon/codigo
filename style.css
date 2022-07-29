@@ -30,6 +30,9 @@ footer{
     padding: 12px 12px;
     background-color: #242424;
 }
+.accordion-body{
+    text-align: justify;
+}
 
 @media only screen and (max-width: 576px){
     .carousel-caption{
