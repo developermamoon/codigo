@@ -22,7 +22,55 @@
                     <a class="navbar-brand text-primary fs-3 fw-bold" href="#">Codigo</a>
 
                     <div class="register-button d-none d-lg-block order-lg-3">
-                        <button class="btn btn-outline-primary">Register</button>
+                        <!-- <button class="btn btn-outline-primary">Register</button> -->
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-primary" style="color:#289BDE ;" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Register
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-md-start">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Password">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Phone no</label>
+                                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Your number">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Date of birth</label>
+                                            <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="Date of birth">
+                                        </div>
+                                        <div class="mb-3">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Accept our <a href="">Terms & Conditions</a>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Sign Up</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
